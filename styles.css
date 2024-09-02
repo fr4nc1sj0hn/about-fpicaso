@@ -1,42 +1,167 @@
-body {
-    background-color: #f8f9fa;
+/* Background for the introduction section */
+#introduction {
+    background-color: #ffffff; /* White background for a clean look */
+    padding: 3rem 2rem; /* Generous padding for a spacious feel */
+    border-radius: 8px; /* Rounded corners for a modern touch */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-.container {
-    max-width: 600px;
-    margin-top: 50px;
-    padding: 30px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+/* Styles for headline */
+.headline {
+    font-size: 2rem; /* Larger font size for prominence */
+    font-weight: 500; /* Bold text */
+    color: #333; /* Dark color for text */
+    margin-bottom: 1rem; /* Space below the headline */
+    text-transform: uppercase; /* Uppercase letters for a strong impression */
+    letter-spacing: 1px; /* Slightly increased letter spacing */
+}
+
+/* Styles for the lead paragraph */
+.lead {
+    font-size: 1rem; /* Slightly larger font size for the paragraph */
+    color: #555; /* Medium gray color for text */
+    line-height: 1.6; /* Increased line height for better readability */
+}
+
+/* Styles for the image */
+.img-fluid {
+    max-width: 100%; /* Ensure the image scales responsively */
+    height: auto; /* Maintain aspect ratio */
+    width: 50%;
+}
+
+.rounded-circle {
+    border-radius: 50%; /* Circle shape for the image */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
 }
 
-h1 {
-    font-size: 2.5rem;
-    color: #333;
+header h1 {
+    margin: 0;
+    font-size: 2em;
 }
 
-p {
-    font-size: 1.1rem;
-    color: #555;
+header p {
+    margin: 5px 0;
 }
 
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-    margin-top: 20px;
+section {
+    padding: 20px;
+    margin: 0 10%;
 }
 
-.btn-primary:hover {
-    background-color: #0056b3;
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.job, .degree {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
 }
 
 footer {
-    margin-top: 50px;
-    padding: 20px 0;
-    background-color: #343a40;
-    color: #ffffff;
     text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+
+#interests h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#interests p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#blogs h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#blogs p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#blogs i {
+    color: #007bff;
+}
+
+#blogs ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#blogs ul li {
+    margin-bottom: 10px;
+}
+
+#blogs a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#blogs a:hover {
+    text-decoration: underline;
+}
+#contact h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#interests i,
+#blogs i,
+#contact i {
+    color: #555; /* Dark Gray color */
+}
+#radarchart {
+    padding: 20px; /* Adjust padding here */
+}
+#radarchart ul {
+    font-size: 12px; 
 }
