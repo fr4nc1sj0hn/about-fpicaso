@@ -1,0 +1,153 @@
+body {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #b0b0b0; /* Light text color */
+}
+
+.headline {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #e0e0e0; /* Light text color */
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+#introduction {
+    flex: 0 0 40%; /* 25% width */
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow for depth */
+    color: #e0e0e0; /* Light text color */
+    overflow: hidden; /* Prevents scrolling in the introduction */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers items vertically */
+    text-align: center; /* Center text */
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 80%; /* Adjust width if needed */
+}
+
+.main-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark background for main content */
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 50%; /* Adjust width if needed */
+}
+
+section {
+    padding: 20px;
+    margin: 0;
+    background-color: #1e1e1e; /* Dark section background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+section:hover {
+    background-color: #333; /* Lighter background color on hover */
+}
+/* Apply hover effect to the entire section */
+section:hover h2 {
+    color: rgb(94 234 212);
+}
+
+section:hover strong {
+    color: rgb(94 234 212);
+}
+section:hover .skill-label {
+    color: rgb(94 234 212);
+}
+section:hover .level-text {
+    color: rgb(94 234 212);
+}
+
+
+/* Transition effect for smooth color change */
+h2 {
+    border-bottom: 2px solid #333; /* Darker line for contrast */
+    padding-bottom: 5px;
+    color: #e0e0e0; /* Light text color */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+.lead{
+    font-size: 1rem;
+}
+
+/* Additional styles from your existing CSS */
+.skill-container {
+    margin-bottom: 20px;
+}
+#skills h3 {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+.certification-group h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: #e0e0e0; /* Light text color */
+}
+.skill-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #e0e0e0; /* Light text color */
+}
+
+.slider {
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background: #444; /* Dark slider background */
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.slider-level {
+    height: 100%;
+    background-color: #1e90ff; /* Light blue slider level */
+    border-radius: 4px;
+}
+
+.level-text {
+    text-align: right;
+    font-size: 14px;
+    color: #e0e0e0; /* Light text color */
+}
+
+.slider-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+strong {
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1e1e1e; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
